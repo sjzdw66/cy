@@ -15,7 +15,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     QTimer *timer=new QTimer(this);
     connect(timer,SIGNAL(timeout()),this,SLOT(timerUpdate()));
-    timer->start(1000);
+    timer->start(2000);
 
 
 }
